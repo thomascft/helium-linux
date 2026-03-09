@@ -55,7 +55,7 @@ runs:
       with:
         name: helium-${{ steps.version.outputs.version }}-${{ env.ARCH }}-linux
         path: |
-          build/release/helium-${{ steps.version.outputs.version }}-${{ env.ARCH }}_linux.tar.xz
-          build/release/helium-${{ steps.version.outputs.version }}-${{ env.ARCH }}_linux.tar.xz.asc
+          build/release/helium-${{ steps.version.outputs.version }}-${{ env.ARCH }}-linux.tar.xz
+          build/release/helium-${{ steps.version.outputs.version }}-${{ env.ARCH }}-linux.tar.xz.asc
         if-no-files-found: error
         compression-level: 0

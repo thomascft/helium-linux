@@ -25,7 +25,7 @@ fi
 
 _release_name="$_app_name-$_version-$_arch"
 _update_info="gh-releases-zsync|imputnet|helium-linux|latest|$_app_name-*-$_arch.AppImage.zsync"
-_tarball_name="${_release_name}_linux"
+_tarball_name="${_release_name}-linux"
 _tarball_dir="$_release_dir/$_tarball_name"
 
 _files="helium
